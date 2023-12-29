@@ -9,11 +9,13 @@
 </head>
 
 <body>
-    @include('components.navbar')
-    <div class="px-10">
-      @yield('container')
-    </div>
   
+    @include('components.navbar')
+
+    @yield('container')
+
+    @include('components.footer')
+      
 </body>
 
 </html>

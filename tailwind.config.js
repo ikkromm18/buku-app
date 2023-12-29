@@ -6,7 +6,11 @@ export default {
         "./resources/**/*.vue",
     ],
     theme: {
-        extend: {},
+        extend: {
+            backgroundImage: {
+                hero: "url('../../public/img/hero.jpg')",
+            },
+        },
     },
     plugins: [],
 };
