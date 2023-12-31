@@ -10,8 +10,8 @@
         <a href="#" class="hover:font-semibold px-4">Contact Us</a>
       </div>
       <div class="text-black flex gap-4 items-center">
-        <a href="#" class="text-white">Sign Up</a>
-        <a href="#" class="bg-white px-2 py-1 rounded-md font-semibold">Login</a>
+        <a href="/signup" class="text-white hover:font-semibold">Sign Up</a>
+        <a href="/login" class="bg-white px-2 py-1 rounded-md font-semibold">Login</a>
       </div>
   </div>
 </nav>

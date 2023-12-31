@@ -10,11 +10,7 @@
 
 <body>
   
-    @include('components.navbar')
-
     @yield('container')
-
-    @include('components.footer')
       
 </body>
 

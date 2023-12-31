@@ -1,7 +1,7 @@
 <footer class="bg-gray-800 text-white p-6 mt-8 flex flex-col items-center justify-center">
   <div class="flex gap-8 mb-8 font-thin">
-    <a href="/" class="px-4 hover:font-semibold">Home</a>
-    <a href="#" class="px-4 hover:font-semibold">Our Product</a>
+    <a href="#home" class="px-4 hover:font-semibold">Home</a>
+    <a href="#explore" class="px-4 hover:font-semibold">Our Product</a>
     <a href="#" class="px-4 hover:font-semibold">Favorite</a>
     <a href="#" class="px-4 hover:font-semibold">Contact Us</a>
   </div>

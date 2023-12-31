@@ -1,7 +1,10 @@
 <?php
 
-use App\Http\Controllers\homeController;
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\homeController;
+use App\Http\Controllers\loginController;
+use App\Http\Controllers\registerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +19,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [homeController::class, 'show']);
 
-Route::get('/about', function () {
-    return view('about');
-});
+Route::get('/login', [loginController::class, 'index']);
+
+Route::get('/signup', [registerController::class, 'index']);
