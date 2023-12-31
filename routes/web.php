@@ -25,3 +25,6 @@ Route::post('/logout', [loginController::class, 'logout']);
 
 Route::get('/signup', [registerController::class, 'index'])->middleware('guest');
 Route::post('/signup', [registerController::class, 'store']);
+
+Route::get('/dashboard', [loginController::class, 'showDashboard'])->middleware('auth');
+

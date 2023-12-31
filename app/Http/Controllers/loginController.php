@@ -42,4 +42,9 @@ class loginController extends Controller
  
     return redirect('/');
     }
+
+    public function showDashboard()
+    {
+        return view('dashboard.index');
+    }
 }
