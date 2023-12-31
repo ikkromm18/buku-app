@@ -19,6 +19,9 @@ use App\Http\Controllers\registerController;
 
 Route::get('/', [homeController::class, 'show']);
 
-Route::get('/login', [loginController::class, 'index']);
+Route::get('/login', [loginController::class, 'index'])->middleware('guest');
+Route::post('/login', [loginController::class, 'authenticate']);
+Route::post('/logout', [loginController::class, 'logout']);
 
-Route::get('/signup', [registerController::class, 'index']);
+Route::get('/signup', [registerController::class, 'index'])->middleware('guest');
+Route::post('/signup', [registerController::class, 'store']);
